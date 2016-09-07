@@ -29,6 +29,24 @@
                 <LineBreak />
                 <LineBreak />
             </TextBlock>
+            <Grid Height="204" Width="320">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="13*"/>
+                    <RowDefinition Height="12*"/>
+                    <RowDefinition Height="12*"/>
+                    <RowDefinition Height="12*"/>
+                    <RowDefinition Height="13*"/>
+                    <RowDefinition Height="16*"/>
+                    <RowDefinition Height="14*"/>
+                    <RowDefinition Height="112*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="35*"/>
+                    <ColumnDefinition Width="38*"/>
+                    <ColumnDefinition Width="221*"/>
+                </Grid.ColumnDefinitions>
+                <Button x:Name="D1" Content="Button" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="1" Click="D1_Click"/>
+            </Grid>
         </StackPanel>
     </ScrollViewer>
 </Page>

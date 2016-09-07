@@ -11,5 +11,10 @@ namespace AOS.Pages
         {
             this.InitializeComponent();
         }
+
+        private void D1_Click(object sender, Windows.UI.Xaml.RoutedEventArgs e)
+        {
+
+        }
     }
 }
